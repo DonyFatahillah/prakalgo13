@@ -1,0 +1,11 @@
+def konversi(rupiah, dollar):
+    hasil = rupiah / dollar
+    return hasil
+
+
+nilairupiah = int(input("Masukan Jumlah Uang Dalam Rupiah : "))
+nilaiusd = int(input("Masukan Kurs Dollar Saat ini : "))
+
+result = konversi(nilairupiah, nilaiusd)
+
+print(f"Hasilnya : ${result:.2f}")
